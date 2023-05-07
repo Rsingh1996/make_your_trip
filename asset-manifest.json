@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/make_your_trip/static/css/main.073c9b0a.css",
+    "main.js": "/make_your_trip/static/js/main.20ce9bc9.js",
+    "static/js/787.ea0169c9.chunk.js": "/make_your_trip/static/js/787.ea0169c9.chunk.js",
+    "static/media/logo.svg": "/make_your_trip/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/make_your_trip/index.html",
+    "main.073c9b0a.css.map": "/make_your_trip/static/css/main.073c9b0a.css.map",
+    "main.20ce9bc9.js.map": "/make_your_trip/static/js/main.20ce9bc9.js.map",
+    "787.ea0169c9.chunk.js.map": "/make_your_trip/static/js/787.ea0169c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.20ce9bc9.js"
+  ]
+}
