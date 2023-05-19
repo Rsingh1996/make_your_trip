@@ -6,12 +6,11 @@ export const SignUpForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Your login logic here
   };
 
   const handleSignup = (event) => {
     event.preventDefault();
-    // Your signup logic here
+
     setShowSignup(false);
   };
 

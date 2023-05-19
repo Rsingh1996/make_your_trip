@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaCreditCard } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export function PaymentPrompt({ handleModalClose }) {
   const [paymentOption, setPaymentOption] = useState("card");
@@ -11,6 +12,8 @@ export function PaymentPrompt({ handleModalClose }) {
   const [upiId, setUpiId] = useState("");
   const [expirationMonth, setExpirationMonth] = useState("");
   const [expirationYear, setExpirationYear] = useState("");
+  const [bookingConfirmed, setBookingConfirmed] = useState(false);
+  const navigate = useNavigate();
 
   const handlePaymentOptionChange = (event) => {
     setPaymentOption(event.target.value);
@@ -22,7 +25,6 @@ export function PaymentPrompt({ handleModalClose }) {
     event.preventDefault();
     let isValid = true;
 
-    // Validate card payment details
     if (paymentOption === "card") {
       const cardNumberRegex = /^\d+$/;
       if (!cardNumberRegex.test(cardNumber) || cardNumber.length < 16) {
@@ -42,27 +44,22 @@ export function PaymentPrompt({ handleModalClose }) {
         alert("Please enter a valid CVV");
         isValid = false;
       }
-    }
-    // Validate Google Pay payment details
-    else if (paymentOption === "googlePay") {
+    } else if (paymentOption === "googlePay") {
       const googlePayEmail = event.target.googlePayEmail.value;
       const mobileNumber = event.target.mobileNumber.value;
       const upiId = event.target.upiId.value;
 
-      // Check if at least one payment detail is entered
       if (!googlePayEmail && !mobileNumber && !upiId) {
         alert("Please enter at least one payment detail");
         isValid = false;
       }
 
-      // Check if the entered mobile number is valid
       const isValidMobileNumber = /^[0-9]{10}$/.test(mobileNumber);
       if (mobileNumber && !isValidMobileNumber) {
         alert("Please enter a valid mobile number");
         isValid = false;
       }
 
-      // Check if the entered UPI ID is valid
       const isValidUPI = /^[a-zA-Z0-9.-]{2,256}@[a-zA-Z][a-zA-Z]{2,64}$/.test(
         upiId
       );
@@ -73,7 +70,6 @@ export function PaymentPrompt({ handleModalClose }) {
     }
 
     if (isValid) {
-      // Submit payment details based on selected payment option
       if (paymentOption === "card") {
         const cardNumber = event.target.cardNumber
           ? event.target.cardNumber.value
@@ -82,7 +78,7 @@ export function PaymentPrompt({ handleModalClose }) {
           ? event.target.expirationDate.value
           : "";
         const cvv = event.target.cvv ? event.target.cvv.value : "";
-        // Submit card payment details
+
         console.log(
           "Submitting card payment details:",
           "Card Number:",
@@ -96,7 +92,7 @@ export function PaymentPrompt({ handleModalClose }) {
         const googlePayEmail = event.target.googlePayEmail.value;
         const mobileNumber = event.target.mobileNumber.value;
         const upiId = event.target.upiId.value;
-        // Submit Google Pay payment details
+
         console.log(
           "Submitting Google Pay payment details:",
           "Google Pay Email:",
@@ -107,12 +103,30 @@ export function PaymentPrompt({ handleModalClose }) {
           upiId
         );
       } else {
-        // Invalid payment option selected
         console.error("Invalid payment option selected");
       }
-      handleModalClose();
+
+      setBookingConfirmed(true);
     }
   };
+  const handleOkButtonClick = () => {
+    navigate("/contact");
+  };
+
+  if (bookingConfirmed) {
+    const bookingNumber = Math.floor(Math.random() * 1000000); // Generate random booking number
+    return (
+      <div className="modal-container">
+        <div className="modal">
+          <h2>Booking Confirmed!</h2>
+          <p>Your booking number is: {bookingNumber}</p>
+          <button type="button" onClick={handleOkButtonClick}>
+            OK
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="modal-container">
