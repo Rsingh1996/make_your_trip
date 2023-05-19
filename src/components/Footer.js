@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="top">
         <div>
           <h1> Make Your Trip</h1>
-          <pa>Choose Your Favourite Destination</pa>
+          <p>Choose Your Favourite Destination</p>
         </div>
         <div>
           <a href="/">
@@ -20,7 +20,7 @@ export const Footer = () => {
       <div className="bottom">
         <div>
           <h4>Project</h4>
-          <a href="https://aweather-app.herokuapp.com/">Weather App</a>
+          <a href="https://rsingh1996.github.io/Simon-Game/">Simon-Game</a>
           <a href="https://rsingh1996.github.io/tic-tac-toe/">Tic-Tac-Toe</a>
           <a href="https://rsingh1996.github.io/counter-app/">Counter App</a>
           <a href="https://rsingh1996.github.io/Color-Palette/">

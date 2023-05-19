@@ -1,11 +1,10 @@
-import "./TripStyles.css";
 import React, { useState } from "react";
-import { Trip } from "./Trip";
+import "./TripStyles.css";
 
 import { BookingPrompt } from "./BookingPrompt";
 import { PaymentPrompt } from "./PaymentPrompt";
 
-export const TripData = (props) => {
+export const InternationalTripData = (props) => {
   const [showBookingPrompt, setShowBookingPrompt] = useState(false);
   const [showPaymentPrompt, setShowPaymentPrompt] = useState(false);
   const [selectedDate, setSelectedDate] = useState(null);

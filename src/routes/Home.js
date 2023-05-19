@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import HomeImg from "../assets/12.jpg";
 import { Destination } from "../components/Destination";
 import { Trip } from "../components/Trip";
+import { InternationalTrip } from "../components/InternationalTrip";
 import { Footer } from "../components/Footer";
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <InternationalTrip />
       <Footer />
     </>
   );
