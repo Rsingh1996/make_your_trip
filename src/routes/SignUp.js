@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import SignUpImg from "../assets/1.agra.jpg";
+import { FirebaseProvider } from "../configure";
 import { Footer } from "../components/Footer";
 import { SignUpForm } from "../components/SignUpForm";
 function SignUp() {
@@ -13,7 +14,10 @@ function SignUp() {
         title="Sign Up"
         btnClass="hide"
       />
-      <SignUpForm />
+      <FirebaseProvider>
+        <SignUpForm />
+      </FirebaseProvider>
+
       <Footer />
     </>
   );

@@ -131,6 +131,9 @@ export function PaymentPrompt({ handleModalClose }) {
   return (
     <div className="modal-container">
       <div className="modal">
+        <button type="button" className="close-btn" onClick={handleModalClose}>
+          <i className="fas fa-times"></i>
+        </button>
         <h2>Checkout</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">

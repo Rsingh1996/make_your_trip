@@ -1,4 +1,4 @@
-import "./InternationalTripStyles.css";
+import "./TripStyles.css";
 import { InternationalTripData } from "./InternationalTripData";
 import Destination1 from "../assets/Destination1.png";
 import Destination2 from "../assets/Destination2.png";
