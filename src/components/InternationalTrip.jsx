@@ -5,7 +5,7 @@ import Destination2 from "../assets/Destination2.png";
 import Destination3 from "../assets/Destination3.png";
 import Destination4 from "../assets/Destination4.png";
 import Destination5 from "../assets/Destination5.png";
-import Destination6 from "../assets/Destination6.png";
+import Destination6 from "../assets/Destination6.jpg";
 
 export const InternationalTrip = () => {
   return (
