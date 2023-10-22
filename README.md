@@ -29,7 +29,8 @@ Demo: [Make Your Trip Demo](https://rsingh1996.github.io/make_your_trip/)
 - HTML
 - CSS
 - JavaScript
-- [Additional technologies or frameworks used, if applicable]
+- ReactJS
+- Firebase
 
 ## Contributing
 
