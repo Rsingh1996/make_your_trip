@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useFirebase } from "../configure";
 
-
 export const BookingPrompt = ({
   heading,
   cost,
