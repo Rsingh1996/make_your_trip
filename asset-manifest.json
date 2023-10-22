@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/make_your_trip/static/css/main.58f3ef7d.css",
-    "main.js": "/make_your_trip/static/js/main.986b43da.js",
+    "main.css": "/make_your_trip/static/css/main.00554704.css",
+    "main.js": "/make_your_trip/static/js/main.857a85f0.js",
     "static/media/2.agra.jpg": "/make_your_trip/static/media/2.agra.c69ef8e6e639c4d89eca.jpg",
     "static/media/3.goa.jpg": "/make_your_trip/static/media/3.goa.3b4279fb0ccabd37c5f3.jpg",
+    "static/media/Destination6.jpg": "/make_your_trip/static/media/Destination6.32f513c66b8483f32c7c.jpg",
     "static/media/4.manali.jpg": "/make_your_trip/static/media/4.manali.1a0579c4bed2f074396a.jpg",
     "static/media/1.sikkim.jpg": "/make_your_trip/static/media/1.sikkim.3dd3092784b8f6c8cd24.jpg",
     "static/media/coorg.jpg": "/make_your_trip/static/media/coorg.507fa494b9204deeea40.jpg",
     "static/media/1.kerala.jpg": "/make_your_trip/static/media/1.kerala.667b790289032d05501c.jpg",
     "static/media/2.kerala.jpg": "/make_your_trip/static/media/2.kerala.7fd8eda69050d01db17e.jpg",
+    "static/media/Destination5.png": "/make_your_trip/static/media/Destination5.8db742a0db2114f7116a.png",
+    "static/media/Destination2.png": "/make_your_trip/static/media/Destination2.64eec9804e3149d26787.png",
+    "static/media/Destination1.png": "/make_your_trip/static/media/Destination1.b43b40ebcae365ec1bcf.png",
     "static/media/1.jpg": "/make_your_trip/static/media/1.509d4d795248ac9962f3.jpg",
+    "static/media/Destination4.png": "/make_your_trip/static/media/Destination4.c19a433ba2f75f2cd33b.png",
     "static/media/12.jpg": "/make_your_trip/static/media/12.257c5311e1cae5638aad.jpg",
     "static/media/2.manali.jpg": "/make_your_trip/static/media/2.manali.3849b81fba5bb8119178.jpg",
+    "static/media/Destination3.png": "/make_your_trip/static/media/Destination3.b4028caa98dffd19d08e.png",
     "static/media/1.goa.jpg": "/make_your_trip/static/media/1.goa.0bc51488245c6c0b54ad.jpg",
     "static/media/1.agra.jpg": "/make_your_trip/static/media/1.agra.dc42546af8c07a1773c5.jpg",
     "static/media/6.jpg": "/make_your_trip/static/media/6.c405c8228d51cdef5d0f.jpg",
     "static/media/night.jpg": "/make_your_trip/static/media/night.ac6d287d5d0014553b87.jpg",
     "index.html": "/make_your_trip/index.html",
-    "main.58f3ef7d.css.map": "/make_your_trip/static/css/main.58f3ef7d.css.map",
-    "main.986b43da.js.map": "/make_your_trip/static/js/main.986b43da.js.map"
+    "main.00554704.css.map": "/make_your_trip/static/css/main.00554704.css.map",
+    "main.857a85f0.js.map": "/make_your_trip/static/js/main.857a85f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f3ef7d.css",
-    "static/js/main.986b43da.js"
+    "static/css/main.00554704.css",
+    "static/js/main.857a85f0.js"
   ]
 }
