@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/make_your_trip/static/css/main.00554704.css",
+    "main.css": "/make_your_trip/static/css/main.22f76f41.css",
     "main.js": "/make_your_trip/static/js/main.2fcfc992.js",
     "static/media/2.agra.jpg": "/make_your_trip/static/media/2.agra.c69ef8e6e639c4d89eca.jpg",
     "static/media/3.goa.jpg": "/make_your_trip/static/media/3.goa.3b4279fb0ccabd37c5f3.jpg",
@@ -23,11 +23,11 @@
     "static/media/6.jpg": "/make_your_trip/static/media/6.c405c8228d51cdef5d0f.jpg",
     "static/media/night.jpg": "/make_your_trip/static/media/night.ac6d287d5d0014553b87.jpg",
     "index.html": "/make_your_trip/index.html",
-    "main.00554704.css.map": "/make_your_trip/static/css/main.00554704.css.map",
+    "main.22f76f41.css.map": "/make_your_trip/static/css/main.22f76f41.css.map",
     "main.2fcfc992.js.map": "/make_your_trip/static/js/main.2fcfc992.js.map"
   },
   "entrypoints": [
-    "static/css/main.00554704.css",
+    "static/css/main.22f76f41.css",
     "static/js/main.2fcfc992.js"
   ]
 }
