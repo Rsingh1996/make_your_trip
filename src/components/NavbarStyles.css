@@ -102,7 +102,7 @@ button:hover {
     transition: none;
   }
 
-  button {
+  li > button {
     display: none;
   }
   .nav-links-mobile {

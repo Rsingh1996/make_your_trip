@@ -123,4 +123,9 @@ label {
   .tripData-card {
     width: 100%;
   }
+  .distance {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+  }
 }
