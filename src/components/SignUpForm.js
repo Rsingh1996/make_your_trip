@@ -15,7 +15,7 @@ export const SignUpForm = () => {
   useEffect(() => {
     if (firebase.isLoggedIn) {
       // navigate to home
-      navigate("/");
+      navigate("/make_your_trip");
     }
   }, [firebase, navigate]);
 
