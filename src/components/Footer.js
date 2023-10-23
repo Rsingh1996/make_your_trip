@@ -9,7 +9,7 @@ export const Footer = () => {
           <p>Choose Your Favourite Destination</p>
         </div>
         <div>
-          <a href="/">
+          <a href="/make_your_trip">
             <i className="fa-brands fa-facebook-square"></i>
             <i className="fa-brands fa-instagram-square"></i>
             <i className="fa-brands fa-twitter-square"></i>
@@ -30,21 +30,21 @@ export const Footer = () => {
         <div>
           <h4>Comminity</h4>
           <a href="https://github.com/Rsingh1996">Github</a>
-          <a href="/">Issues</a>
-          <a href="/">Project</a>
-          <a href="/">Twitter</a>
+          <a href="/make_your_trip">Issues</a>
+          <a href="/make_your_trip">Project</a>
+          <a href="/make_your_trip">Twitter</a>
         </div>
         <div>
           <h4>Help</h4>
-          <a href="/">Support</a>
-          <a href="/">Troubleshooting</a>
-          <a href="/">Contact us</a>
+          <a href="/make_your_trip">Support</a>
+          <a href="/make_your_trip">Troubleshooting</a>
+          <a href="/make_your_trip">Contact us</a>
         </div>
         <div>
           <h4>Others</h4>
-          <a href="/">Terms of Service</a>
-          <a href="/">Privacy Policy</a>
-          <a href="/">License</a>
+          <a href="/make_your_trip">Terms of Service</a>
+          <a href="/make_your_trip">Privacy Policy</a>
+          <a href="/make_your_trip">License</a>
         </div>
       </div>
     </div>

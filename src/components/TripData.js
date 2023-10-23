@@ -66,6 +66,7 @@ export const TripData = (props) => {
       </div>
       <h4>{props.heading} </h4>
       <p>{props.text} </p>
+      <hr />
       <div className="info">
         <div className="services">
           <i className="fa-solid fa-plane-up"></i>
